@@ -68,7 +68,7 @@ public class Robot extends TimedRobot {
     double leftStick = driverStick.getRawAxis(1);
 
     //rights side
-    double rightStick = driverStick.getRawAxis(4);
+    double rightStick = driverStick.getRawAxis(5);
 
     //check if the a button was pressed
     boolean aButtonPressed = driverStick.getRawButtonPressed(1);
